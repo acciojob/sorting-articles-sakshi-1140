@@ -3,7 +3,7 @@ const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'N
 
 function removeArticle(str)
 {
-    str=" "+str;
+    str=" "+str+" ";
     str=str.toLowerCase();
     str=str.replaceAll(" the "," ");
     str=str.replaceAll(" a "," ")
