@@ -1,1 +1,8 @@
 /*  your css code here. If applicable */
+ul{
+  box-shadow:0 10px 10px rgba(0,0,0,.5);
+	padding-block:20px;
+}
+ul li{
+	margin-bottom:10px;
+}
